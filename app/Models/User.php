@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+use App\Models\School;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Database\Factories\UserFactory;
@@ -29,6 +30,10 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
+
+    public function school(){
+        return $this->hasMany(School::class);
+    }
     protected $hidden = [
         'password',
         'remember_token',
