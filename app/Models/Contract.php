@@ -12,4 +12,10 @@ class Contract extends Model
         "employee_id",
         "end_date",
     ];
+    public function employee(){
+        return $this->belongsTo(Employee::class);
+    }
+    public function designation(){
+        return $this->belongsTo(Designation::class);
+    }
 }
