@@ -16,3 +16,9 @@
         <div class="w-72 h-72 mt-8 items-center rounded-xl border-2 border-brand">
             <img class="rounded-lg" src="images/home.jpg" alt="">
         </div>
+ <div class="w-72 h-72 mt-8 items-center rounded-xl border-2 border-brand">
+            <img class="rounded-lg" src="images/home.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
