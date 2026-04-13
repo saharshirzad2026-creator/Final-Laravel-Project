@@ -35,3 +35,8 @@ class Fq extends Component
             "question" => "Who can enroll?",
             "answer" => "Students from the local area who meet age and grade requirements can enroll."
         ],
+         [
+            "question" => "Are Teachers qualified?",
+            "answer" => "Yes, teachers are appointed according to government standards."
+        ],
+    ];
