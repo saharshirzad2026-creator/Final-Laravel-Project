@@ -19,3 +19,11 @@ class Fq extends Component
             "question" => "Is the School public or private?",
             "answer" => "It is a public (government-run) school."
         ],
+         [
+            "question" => "What grades are taught?",
+            "answer" => "The school offers classes from primary to high school levels, depending on its structure."
+        ],
+        [
+            "question" => "Is education free?",
+            "answer" => "Yes, educantion is generally free as it is a government school."
+        ],
