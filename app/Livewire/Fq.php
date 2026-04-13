@@ -40,3 +40,12 @@ class Fq extends Component
             "answer" => "Yes, teachers are appointed according to government standards."
         ],
     ];
+
+ public $questionIndex = null;
+    public function toggle($index){
+        if($this->questionIndex === $index){
+            $this->questionIndex = null;
+        }
+        else{
+            $this->questionIndex = $index;
+        }
