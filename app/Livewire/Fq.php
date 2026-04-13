@@ -49,3 +49,10 @@ class Fq extends Component
         else{
             $this->questionIndex = $index;
         }
+ }
+
+    public function render()
+    {
+        return view('livewire.fq');
+    }
+}
