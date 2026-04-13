@@ -27,3 +27,11 @@ class Fq extends Component
             "question" => "Is education free?",
             "answer" => "Yes, educantion is generally free as it is a government school."
         ],
+         [
+            "question" => "What curriculum is followed?",
+            "answer" => "The school follows the official curriculum set by the ministry of education of Afghanistan."
+        ],
+        [
+            "question" => "Who can enroll?",
+            "answer" => "Students from the local area who meet age and grade requirements can enroll."
+        ],
