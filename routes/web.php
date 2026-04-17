@@ -9,6 +9,8 @@ Route::prefix('dashboard')->middleware(['auth', 'verified'])->group(function(){
     Route::view('contrct', 'livewire.contract.index');
     Route::view('school', 'livewire.school.index');
     Route::view('department', 'livewire.department.index');
+    Route::view('designation', 'livewire.designation.index');
+    Route::view('salary', 'livewire.salary.index');
 });
 
 require __DIR__.'/auth.php';
