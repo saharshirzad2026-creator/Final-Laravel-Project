@@ -29,7 +29,7 @@
                     <div class="mt-16 pt-1">
                         <livewire:hero/>
                         <livewire:feature/>
-                        <livewire:team/>
+                        <!-- <livewire:team/> -->
                         <livewire:fq/>
                     </div>
         </div>
