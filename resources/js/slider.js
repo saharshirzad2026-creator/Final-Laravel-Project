@@ -1,7 +1,7 @@
 const image = document.getElementById("image");
 const imageList = [
-    "images/bg.jpg",
-    "images/bg-2.jpg",
+    "images/sharifi1.jpg",
+    "images/sharifi2.jpg",
 ];
 let index = 0;
 setInterval(()=>{

@@ -30,6 +30,7 @@
                         <livewire:hero/>
                         <livewire:feature/>
                         <livewire:team/>
+                        <livewire:fq/>
                     </div>
         </div>
 <!--
