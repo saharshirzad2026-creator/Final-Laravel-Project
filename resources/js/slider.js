@@ -10,4 +10,4 @@ setInterval(()=>{
         index = 0;
     }
     image.setAttribute("src", imageList[index]);
-},10000)
+},1000)

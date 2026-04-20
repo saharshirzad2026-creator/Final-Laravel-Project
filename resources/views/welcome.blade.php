@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        @vite('resources/js/slider.js')
+         @vite('resources/js/app.js')
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
@@ -29,7 +29,6 @@
                     <div class="mt-16 pt-1">
                         <livewire:hero/>
                         <livewire:feature/>
-                        <livewire:team/>
                         <livewire:fq/>
                     </div>
         </div>
