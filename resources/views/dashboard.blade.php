@@ -39,8 +39,9 @@
                     <div class="p-4 bg-white/70 h-fit">
                         <h1>Contracts Satistics</h1>
                     </div>
-
-
+                    <div class="p-4 bg-white/70 h-fit">
+                        <h1>Payroll Satistics</h1>
+                    </div>
                 </div>
             </div>
         </div>
