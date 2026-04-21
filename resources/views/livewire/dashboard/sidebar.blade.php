@@ -27,5 +27,11 @@
                             <h1 class="text-brand font-bold px-2">Employee</h1>
                         </a>
                         </div>
+                        <div>
+                        <a href="/dashboard/employee">
+                            <i></i>
+                            <h1 class="text-brand font-bold px-2">Employee</h1>
+                        </a>
+                        </div>
                     </div>
                 </div>
