@@ -13,7 +13,7 @@
                     <h1 class="text-4xl text-brand font-bold">Esmatullah Ghulami</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit molestiae, veritatis aperiam vitae excepturi ut asperiores impedit, porro libero culpa animi. Cupiditate atque laudantium sunt doloribus fugit voluptate qui.</p>
                 </div>
-                <img class="w-full h-44 border-4 border-brand rounded-md" src="images/gholami.jpg" alt="">
+                <img class="w-full h-44 border-4 border-brand rounded-md" src="images/home.jpg" alt="">
             </div>
         </div>
         <div class="w-full h-72 rounded-xl shadow-[0px_0px_3px_rgba(0,0,0,0.4)] bg-white"></div>
