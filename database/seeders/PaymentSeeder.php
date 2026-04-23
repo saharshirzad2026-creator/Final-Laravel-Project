@@ -6,16 +6,18 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class DepartmentSeeder extends Seeder
+class PaymentSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        DB::table('departments')->insert([
-            "name"=> "Computer",
-            "school_id" => 1
+        DB::table('payments')->insert([
+            "payment_date"=> "",
+            "payment_method"=> "",
+            "employee_id"=> 1,
+            "payroll_id"=> 1,
         ]);
     }
 }

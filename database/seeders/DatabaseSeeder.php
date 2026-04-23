@@ -27,6 +27,9 @@ class DatabaseSeeder extends Seeder
             DesignationsSeeder::class,
             EmployeeSeeder::class,
             ContractSeeder::class,
+            PaymentSeeder::class,
+            PayrollSeeder::class,
+            SalarySeeder::class,
         ]);
     }
 }
