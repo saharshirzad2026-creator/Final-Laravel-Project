@@ -8,7 +8,7 @@ Route::view('dashboard', 'dashboard')->middleware(['auth', 'verified'])->name('d
 Route::view('profile', 'profile')->middleware(['auth', 'verified'])->name('profile');
 Route::prefix('dashboard')->middleware(['auth', 'verified'])->group(function(){
     Route::view('employee', 'livewire.employee.index');
-    Route::view('contrct', 'livewire.contract.index');
+    Route::view('contract', 'livewire.contract.index');
     Route::view('school', 'livewire.school.index');
     Route::view('department', 'livewire.department.index');
     Route::view('designation', 'livewire.designation.index');

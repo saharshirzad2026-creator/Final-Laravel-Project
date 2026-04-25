@@ -1,37 +1,31 @@
-<div class="w-full col-span-1 h-fit min-h-screen bg-primary">
-                    <div class="text-center text-2xl py-2 text-brand font-bold">
-                        Dashboard
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <div>
-                        <a href="/dashboard/employee">
-                            <i></i>
-                            <h1 class="text-brand font-bold px-2 text-xl">Employee</h1>
-                        </a>
-                        </div>
-                        <div>
-                        <a href="/dashboard/salary">
-                            <i></i>
-                            <h1 class="text-brand font-bold px-2 text-xl">Salaries</h1>
-                        </a>
-                        </div>
-                        <div>
-                        <a href="/dashboard/contract">
-                            <i></i>
-                            <h1 class="text-brand font-bold px-2 text-xl">Contract</h1>
-                        </a>
-                        </div>
-                        <div>
-                        <a href="/dashboard/payroll">
-                            <i></i>
-                            <h1 class="text-brand font-bold px-2 text-xl">Payroll</h1>
-                        </a>
-                        </div>
-                        <div>
-                        <a href="/dashboard/designation">
-                            <i></i>
-                            <h1 class="text-brand font-bold px-2 text-xl">Designations</h1>
-                        </a>
-                        </div>
-                    </div>
-                </div>
+<aside class="w-64 bg-white min-h-screen border-r hidden md:block">
+        <div class="p-4 font-bold text-lg border-b">
+            Dashboard
+        </div>
+        <nav class="p-4 space-y-2">
+            <a href="/dashboard/school" class="block px-3 py-2 rounded hover:bg-gray-100">
+                School
+            </a>
+            <a href="/dashboard/employee" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Employees
+            </a>
+            <a href="/dashboard/contract" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Contracts
+            </a>
+            <a href="/dashboard/designation" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Designations
+            </a>
+            <a href="/dashboard/department" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Departments
+            </a>
+            <a href="/dashboard/salary" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Salary
+            </a>
+            <a href="/dashboard/payroll" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Payroll
+            </a>
+            <a href="/dashboard/payment" class="block px-3 py-2 rounded hover:bg-gray-100">
+                Payment
+            </a>
+        </nav>
+    </aside>
