@@ -35,6 +35,24 @@ Route::middleware(['auth','verified'])->group(function(){
         Route::get("/add", ContractAdd::class)->name("add");
         Route::get("{id}/edit", ContractEdit::class)->name("edit");
     });
+
+    Route::prefix("salary")->name("salary.")->group(function(){
+        Route::get("/", SalaryIndex::class)->name("index");
+        Route::get("/add", SalaryAdd::class)->name("add");
+        Route::get("{id}/edit", SalaryEdit::class)->name("edit");
+    });
+
+    Route::prefix("payroll")->name("payroll.")->group(function(){
+        Route::get("/", PayrollIndex::class)->name("index");
+        Route::get("/add", PayrollAdd::class)->name("add");
+        Route::get("{id}/edit", PayrollEdit::class)->name("edit");
+    });
+
+    Route::prefix("payment")->name("payment.")->group(function(){
+        Route::get("/", PaymentIndex::class)->name("index");
+        Route::get("/add", PaymentAdd::class)->name("add");
+        Route::get("{id}/edit", PaymentEdit::class)->name("edit");
+    });
 });
 
 Route::view('dashboard', 'dashboard')->middleware(['auth', 'verified'])->name('dashboard');
