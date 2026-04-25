@@ -1,4 +1,4 @@
-<div class="w-full flex justify-between gap-2">
+<div class="w-full grid grid-cols-4 justify-between gap-2 ">
     <div class="">
        <img class="w-full h-52 rounded-full" src="images/home.jpg" alt="">
        <h1 class="text-2xl text-center">Name</h1>
