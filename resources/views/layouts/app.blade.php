@@ -30,6 +30,7 @@
             <!-- Page Content -->
             <main>
                 {{ $slot }}
+                <!-- <div class="w-36 h-36 bg-white"></div> -->
             </main>
         </div>
     </body>
